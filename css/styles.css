@@ -237,6 +237,85 @@ height:20px;
   height: 18px;
 }
 
+.input {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid darkgrey;
+}
+
+.agree-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.agree-check .checkmark {
+  appearance: none;
+}
+
+.agree-check .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  fill: none;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agree-check .checkmark:focus + .icon,
+.agree-check .checkmark:checked:focus + .icon {
+  outline: 2px solid #212121;
+}
+
+.agree-check .checkmark:checked + .icon {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  fill: #ffffff;
+  outline: none;
+  stroke: var(--white);
+  stroke-width: 0.2;
+}
+
+.agree-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.agree-check .checkmark {
+  appearance: none;
+}
+
+.agree-check .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  fill: none;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agree-check .checkmark:focus + .icon,
+.agree-check .checkmark:checked:focus + .icon {
+  outline: 2px solid #212121;
+}
+
+.agree-check .checkmark:checked + .icon {
+  background-color: #ffffff;
+  border-color: #2196f3;
+  fill: #ffffff;
+  outline: none;
+  stroke: var(--white);
+  stroke-width: 0.2;
+}
 
   /* ----- our characteristics style ------- */
   
@@ -521,7 +600,26 @@ color: var(--links-color);
     color: var(--icons-color);
   }
   
-
+  .form-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .input {
+    padding: 8px 16px;
+    outline: none;
+    border: 1px solid darkgrey;
+  }
 
 
   /* Portofoliu*/
@@ -907,4 +1005,24 @@ gap:23px;
   color: var(--icons-color);
 }
 
-  
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+}
+
+.input {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid darkgrey;
+}
+ 

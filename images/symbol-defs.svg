@@ -261,5 +261,11 @@ d="M46.974 18.042v0.233h-1.179v0.7h0.955v0.225h-0.955v0.724h1.179v0.233h-1.521v-
 <path fill="currentColor"
  d="M18 22.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z"></path>
 </symbol>
+<symbol id="icon-location-current" viewBox="0 0 20 20">
+<path fill="currentColor" d="M0 0l20 8-8 4-2 8z"></path>
+</symbol>
+<symbol id="icon-checkmark" viewBox="0 0 20 20">
+<path fill="currentColor" d="M0 11l2-2 5 5 11-11 2 2-13 13z"></path>
+</symbol>
 </defs>
 </svg>
