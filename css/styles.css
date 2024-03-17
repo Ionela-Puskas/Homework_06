@@ -1010,6 +1010,8 @@ gap:23px;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  padding:16px ;
+  margin-bottom: 10px;
 }
 
 .input-icon {
